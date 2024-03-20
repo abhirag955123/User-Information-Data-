@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background:rgba(14, 95, 158, 0.4);
+    background: linear-gradient(315deg, rgb(40, 6, 232) 0%, rgba(71, 41, 135, 0.703) 50%, rgb(236, 32, 127) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+section{
+    border: 1px solid beige;
+    border-radius: 8px;
+    width: 330px;
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 1rem ;
+    padding-top: 1rem;
+    margin: 80px auto;
+
+}
+#box{
+padding-top: 1rem;
+
+}
+#box div{
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    color:white ;
+    font-size: 20px;
+
+}
